@@ -1,12 +1,10 @@
 <?php
 /**
- * Plugin Name: homesection block
- * Plugin URI: 
+ * Plugin Name: home-section-block
+ * Plugin URI: https://github.com/jamesoyanna/home-section-block.git
  * Description: homesection block.
  * Author: James Oyanna
  * Author URI: https://www.jamesoyanna.com/
- * Version: 1.0.0
- * License: GPL2+
  *
  */
 

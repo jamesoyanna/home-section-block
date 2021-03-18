@@ -1,4 +1,3 @@
-/* eslint-disable no-mixed-spaces-and-tabs */
 // Imports
 import { __ } from '@wordpress/i18n';
 import { registerBlockType } from '@wordpress/blocks';
@@ -8,12 +7,7 @@ import './editor.scss';
 import './style.scss';
 
 /**
- * Register: a Gutenberg Block.
- *
- * Registers a new block provided a unique name and an object defining its
- * behavior. Once registered, the block is made editor as an option to any
- * editor interface where blocks are implemented.
- *
+ * Register: The Gutenberg home-scetion-block.
  */
 registerBlockType( 'cgb/homesection-block', {
 	title: __( 'homesection-block' ), // Block title.
@@ -63,11 +57,7 @@ registerBlockType( 'cgb/homesection-block', {
 
 	save: ( props ) => {
 		return (
-			 // eslint-disable-next-line no-mixed-spaces-and-tabs
-			 // eslint-disable-next-line no-mixed-spaces-and-tabs
 			 <RichText.Content tagName="p" value={ props.attributes.content } />
-
-			 // eslint-disable-next-line no-mixed-spaces-and-tabs
 			 );
 	},
 

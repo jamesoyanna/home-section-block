@@ -8,9 +8,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /**
- * home section block assets for both frontend + backend.
+ * home-section-block assets for both frontend + backend.
  */
-function homesection_block_cgb_block_assets() { // phpcs:ignore
+function homesection_block_cgb_block_assets() { 
 	// Register block styles for both frontend + backend.
 	wp_register_style(
 		'homesection_block-cgb-style-css', // Handle.

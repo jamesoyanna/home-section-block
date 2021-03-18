@@ -1,6 +1,7 @@
-A custom gutenberg home-section block use for creating a text block area on the gutenberg editor.
+A custom gutenberg home-section block use for adding a text block area on the gutenberg editor.
 
 Installation.
+
     Navigate to the Plugins > Add new screen in your WordPress administrative dashboard.
     Click Add New at the top of the page.
     Click Upload Plugin at the top of the page.
